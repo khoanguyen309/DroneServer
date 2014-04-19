@@ -44,6 +44,6 @@ public class ServiceController
 		
 		response.setContentType("text/plain");
 	    response.setCharacterEncoding("UTF-8");
-	    response.getOutputStream().println("received " + formattedDate);
+	    response.getOutputStream().println("hello from server at " + formattedDate);
 	}
 }
