@@ -10,5 +10,7 @@
 	
 	<body>
 		<h1>Test page</h1>
+		
+		<h2>Time on server: ${time}</h2>
 	</body>
 </html>
